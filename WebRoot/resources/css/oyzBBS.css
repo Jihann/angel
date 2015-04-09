@@ -1,0 +1,140 @@
+*{
+  font: 12px/1.5 'Microsoft YaHei',微软雅黑,宋体,Tahoma,Helvetica,'SimSun',sans-serif;
+}
+body{
+  color: #333;
+  background: #f2f2f6;
+}
+#container{
+          width:983px;
+          padding-top: 7px;
+      }
+#row{
+    margin: 2px 0;
+    height:29px;
+    line-height: 29px;
+    border:none;
+    background: transparent;
+}
+#nav{
+    padding-right: 10px;
+    float: left;
+}
+#nvhm{
+    background: url(../img/home.png) no-repeat 0px 5px ;
+    float:left;
+    height:29px;
+    text-indent: -99999em;
+}
+#nav em{
+    width: 20px;
+    background: url(http://bbs.360safe.com/static/image/common/pt_item.png) no-repeat 0 center;
+    line-height: 29px;
+    text-indent: -99999em;
+    overflow: hidden;
+}
+#lt{
+    height: 29px;
+    line-height: 29px;
+    color:#333;
+}
+#Lt:hover{
+    color:#00c9bd;
+}
+#statistic{
+    width: 972px;
+    border: 3px solid #fdfdfe;
+    margin: 10px 0 22px;
+    padding: 17px 0;
+}
+#statistic em{
+    font-size:24px;
+    color:#fd7474;
+}
+#statistic > div{
+    text-align: center;
+    border-right: 1px solid #d3d5d9;
+}
+#statistic #last{
+    border-right: none;
+}
+#themeList{
+    margin: 0 0px 16px 0;
+}
+#themeList .item{
+    background: #fff;
+    padding: 13px 0px 13px 13px;
+    width: 732px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.themeInfo{
+    display:inline-block;
+    vertical-align: middle;
+    width: 620px;
+    padding-bottom: 6px;
+}
+.themeInfo .view-num{
+    float:right;
+}
+ .themeInfo .reply-num{
+     float: right;
+ }
+ .themeInfo .upInfo{
+     padding-bottom: 5px;
+ }
+ .themeInfo .upInfo a,.themeInfo .upInfo em{
+     font-size: 16px;
+ }
+ .themeInfo .downInfo a{
+     color: #aaa;
+     font-size: 14px;
+ }
+ .addNew a{
+     display:inline-block;
+     margin-bottom: 15px;
+     width:230px;
+     padding-left:15px;
+     height:44px;
+     line-height: 44px;
+     background-color: #5bdbff;
+     font-size:16px;
+     text-align: center;
+     color: #f5f5f5;
+     font-weight: bold;
+ }
+ .hottopic{
+     background-color: #fff;
+     width:230px;
+ }
+.hottopic h4{
+    font-size: 14px;
+    color: #000;
+    font-weight: normal;
+    float: left;
+    padding: 10px;
+    margin:0 0;
+}
+.hottopic .more{
+    float: right;
+    padding: 11px 10px 10px;
+    color: #00c9bd;
+}
+ .hottopic ul{
+     clear: both;
+     background: #ffffff;
+     border-top: 1px solid #e5e5e5;
+     border-radius: 0 0 5px 5px;
+     width:100%;
+     overflow: hidden;
+     padding-left:8px;
+ }
+ .hottopic ul li{
+     float: left;
+     padding: 20px 0;
+     width:110px;
+     text-align: center;
+     overflow: hidden;
+     border-right: 1px solid #f3f3f3;
+     padding-left: 8px;
+     padding-right: 8px;
+ }
