@@ -1,8 +1,8 @@
 package com.angel.framework.exception;
 
 /**
- * 订单业务处理自定义异常
- * @author JBH
+ * 业务处理自定义异常
+ * @author Jihann
  * @version 2015-1-30
  */
 public class BizException 
