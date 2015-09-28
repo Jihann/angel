@@ -4,8 +4,6 @@ import java.math.BigDecimal;
 
 /**
  * 浮点型精确类型计算工具类
- * @author JBH
- * @date 2015-01-30
  * @version 1.0
  */
 public class MathUtil {
