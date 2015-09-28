@@ -8,7 +8,7 @@ import com.angel.queen.model.ConUsers;
 /**
  * 类名称：
  * 类描述：
- * @author JBH
+ * @author Jihann
  * @version 2015-01-26
  * @since JDK1.6
  */
