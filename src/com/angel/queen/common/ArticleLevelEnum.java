@@ -2,7 +2,7 @@ package com.angel.queen.common;
 
 /**
  * 订单状态枚举
- * @author liupei
+ * @author Jihann
  */
 public enum ArticleLevelEnum {
 	/**
