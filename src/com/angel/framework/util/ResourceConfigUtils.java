@@ -9,9 +9,6 @@ import javax.servlet.http.HttpServlet;
 
 /**
  * 系统初始化功能
- * 
- * @author wangzy
- * @date 2014-9-24
  */
 public class ResourceConfigUtils extends HttpServlet {
 
