@@ -6,10 +6,6 @@ import java.util.Date;
 
 import net.sf.json.JSONObject;
 
-/**
- * 自定义
- * @author JBH
- */
 public class StringUtil {
 
 	/**
