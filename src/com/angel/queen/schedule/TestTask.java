@@ -7,7 +7,6 @@ import org.apache.log4j.Logger;
 
 /**
  * xml
- * @author JBH
  * @version 2015-02-10
  * @since JDK1.6
  */
