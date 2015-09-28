@@ -12,7 +12,6 @@ import com.angel.queen.service.IConUsersService;
 
 /**
  * annotation
- * @author JBH
  * @version 2015-02-10
  * @since JDK1.6
  */
