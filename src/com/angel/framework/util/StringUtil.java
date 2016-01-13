@@ -81,6 +81,30 @@ public class StringUtil {
 		}
 		return str;
 		
+	/**
+	 * 正则表达式
+	 * @param cardID
+	 * @return
+	 */
+	public static String regCard(String cardID) {
+		
+		String result = "";
+		String reg = "(.{3})(.*)(.{3})$";
+		if (!StringUtils.isBlank(cardID)) {
+			Pattern  p = Pattern.compile(reg);
+			Matcher m = p.matcher(cardID);
+			if (m.find()) {
+				int len = m.group(2).length();
+				StringBuilder sb = new StringBuilder();
+				for (int i = 0; i < len; i++) {
+					sb.append("*");
+				}
+				result = cardID.replace(m.group(2), sb.toString());
+			}
+		}
+		return result;
+	}	
+		
 	}
 	
 	
